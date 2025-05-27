@@ -1,0 +1,14 @@
+name: LuckyClam
+version: 1.0
+main: org.example.Main
+api-version: 1.20
+description: Plugin for Lucky Clams in Atlantic
+commands:
+  luckyclam:
+    description: Manage LuckyClam events
+    usage: /<command> [start]
+    permission: luckyclam.admin
+permissions:
+  luckyclam.admin:
+    description: Allows starting LuckyClam event
+    default: op

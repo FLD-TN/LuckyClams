@@ -1,0 +1,22 @@
+spawn:
+  max-clams: 5
+  min-x: -200
+  max-x: 200
+  min-z: -200
+  max-z: 200
+  max-attempts: 100
+cooldown:
+  min: 10
+  max: 30
+rewards:
+  - type: item
+    material: ENDER_PEARL
+    amount: 1
+    chance: 1
+  - type: item
+    material: TROPICAL_FISH
+    amount: 1
+    chance: 1
+  - type: command
+    command: "mi give CONSUMALBE ZICRON4 %player_name%"
+    chance: 90
